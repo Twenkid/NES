@@ -1,4 +1,4 @@
-; Plays scale using pulse wave and triangle waves. See:
+; Plays a scale using pulse wave and triangle waves. See:
 ; http://wiki.nesdev.com/w/index.php/APU_basics
 ; https://web.archive.org/web/20200202131408/http://blargg.8bitalley.com/parodius/nes-code/apu_scale.s
 ;
