@@ -17,3 +17,19 @@ Plays a scale using pulse wave and triangle waves. See:
 ;   https://github.com/NesHacker/DevEnvironmentDemo
 ; * Removed the 3 0s from the VECTOR segment:
 ;   .word 0,0,0, nmi, reset, irq --> .word nmi, reset, irq
+
+
+
+12.2.2025
+
+Calls:
+C:\cc65\bin\ca65.exe
+C:\cc65\bin\ld65.exe
+C:\Guz\Nesten\
+
+; Original:
+; ca65 apu_scale.s
+; ld65 -t nes apu_scale.o -o apu_scale.nes
+; This one:
+; ca65 apu2.s
+; ld65 -t nes apu2.o -o apu2.nes
